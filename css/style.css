@@ -875,7 +875,7 @@ a:hover {
 .footer_section {
     width: 100%;
     float: left;
-    background-color: #252525;
+    background-color: #2b252c;
     height: auto;
 }
 
@@ -1021,3 +1021,31 @@ input.mail_bt::placeholder {
 
 
 /* copyright section end */
+
+.about-section1 {
+    width: 90%;
+    height: 100vh; /* Full viewport height */
+    background-image: url(../images/interactive.png); /* Replace with your image path */
+    background-size:contain; /* Ensures the image covers the entire section */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.about-section2 {
+    width: 90%;
+    height: 100vh; /* Full viewport height */
+    background-image: url(../images/des.png); /* Replace with your image path */
+    background-size: contain; /* Ensures the image covers the entire section */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+

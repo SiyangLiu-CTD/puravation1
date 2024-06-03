@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Footer</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- icofont CSS -->
+    <link rel="stylesheet" href="assets/css/icofont.css">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevent scrolling */
+        }
+        .footer {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            overflow: hidden; /* Prevent scrolling */
+        }
+        .footer-top {
+            flex: 1; /* Ensures the footer-top section takes available space */
+            overflow: hidden; /* Allows scrolling within this section if needed */
+        }
+    </style>
+
+</head>
+<body>
+    <footer id="footer" class="footer">
+        <!-- Footer Top -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-footer">
+                            <h2>Contact Us</h2>
+                            <p>PuraCap® Pharmaceutical LLC,<br>
+                                100 Somerset Corp Blvd, Ste 3000<br>
+                                Bridgewater, NJ 08807</p>
+                            <ul class="time-sidual">
+                                <li class="day"><i class="icofont-phone"></i> 908.941.5456</li>
+                                <li class="day"><i class="icofont-fax"></i> 908.941.5457</li>
+                            </ul>
+                            <!-- Social -->
+                            <ul class="social">
+                                <li><a href="https://www.linkedin.com/company/puracap-pharmaceutical-llc/"><i class="icofont-linkedin"></i></a></li>
+                            </ul>
+                            <!-- End Social -->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-footer f-link">
+                            <h2>Disclaimer</h2>
+                            <p>This site is only intended for residents of the United States. The products discussed on this website may have different labeling in different countries.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-footer">
+                            <h2>Open Hours</h2>
+                            <p>Explore our open hours, where opportunity meets availability.</p>
+                            <ul class="time-sidual">
+                                <li class="day">Monday - Friday <span>9:00am-5:30pm</span></li>
+                                <li class="day">Saturday <span>Closed</span></li>
+                                <li class="day">Sunday <span>Closed</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="single-footer">
+                            <h2>Newsletter</h2>
+                            <p>Subscribe to our newsletter for the latest updates delivered directly to your inbox.</p>
+                            <form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
+                                <input name="email" placeholder="Email Address" class="common-input" onfocus="this.placeholder = ''"
+                                    onblur="this.placeholder = 'Your email address'" required="" type="email">
+                                <button class="button"><i class="icofont icofont-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Footer Top -->
+        
+        <!-- Copyright -->
+        <div class="copyright">
+            <ul class="menu">
+                <p>&copy; Copyright 2024  |  All Rights Reserved by PuraCap® Pharmaceutical LLC </p>
+                <!--<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>-->
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

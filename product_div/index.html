@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tutorial</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <meta name="robots" content="noindex,follow" />
+
+  </head>
+
+  <body>
+    <main class="container">
+
+      <!-- Left Column / Headphones Image -->
+      <div class="left-column">
+        <img data-image="black" src="images/black.png" alt="">
+        <img data-image="blue" src="images/blue.png" alt="">
+        <img data-image="red"  src="images/red.png" alt="">
+        <img data-image="grey" class="active" src="images/grey.png" alt="">
+      </div>
+
+
+      <!-- Right Column -->
+      <div class="right-column">
+
+        <!-- Product Description -->
+        <div class="product-description">
+          <span>PAIN RELIEVER</span>
+          <h1>Pain Relief</h1>
+          <p>Relieve pain and reduce fever effectively with PuraVation Acetaminophen. Our formulation ensures fast-acting relief for headaches, muscle aches, arthritis, and other minor aches and pains. Trust PuraVation for reliable, gentle care.</p>
+        </div>
+
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+
+          <!-- Product Color -->
+          <div class="product-color">
+            <span>Strength</span>
+
+            <div class="color-choose">
+              <div>
+                <input data-image="grey" type="radio" id="grey" name="color" value="grey" checked>
+                
+                <label for="grey"><span></span>Regular</label>
+              </div>
+              <div>
+                <input data-image="red" type="radio" id="red" name="color" value="red">
+                <label for="red"><span></span>Extra</label>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Cable Configuration -->
+          <div class="cable-config">
+            <span>Count size</span>
+
+            <div class="cable-choose">
+              <button>60ct</button>
+              <button>100ct</button>
+              <button>1000ct</button>
+            </div>
+
+            <a href="#">What strength is most suitable for you? </a>
+          </div>
+        </div>
+
+        <!-- Product Pricing -->
+        <div class="product-price">
+          <span>$12.99</span>
+          <a href="#" class="cart-btn">Add to cart</a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
